@@ -1,0 +1,124 @@
+.money-manager-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.greetings-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.greeting-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.greeting-subtitle {
+  font-size: 16px;
+  color: #888;
+}
+
+.money-details-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.money-details-card {
+  display: flex;
+  align-items: center;
+}
+
+.money-details-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.money-details-info {
+  text-align: left;
+}
+
+.money-details-title {
+  font-size: 14px;
+  margin: 0;
+}
+
+.money-details-amount {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.transactions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-transaction-container, .history-container {
+  width: 48%;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-input, .form-select {
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.add-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.history-list {
+  margin-top: 20px;
+}
+
+.history-header, .history-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.history-header {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.history-header-item, .history-item-title, .history-item-amount, .history-item-type {
+  width: 25%;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
